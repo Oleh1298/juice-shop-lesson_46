@@ -3,63 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
     <title>lesson_46</title>
 </head>
 <body>
     
     <header class="header">
        <div class="container">
-<a class="logo" href="#">o pure flave</a>
-<nav>
-    <ul> 
-    <li class="nav-items"> <a class="nav-link" href="#Shop">Shop</a> </li>
-    <li class="nav-items"> <a class="nav-link" href="#Subscription">Subscription</a> </li>
-    <li class="nav-items"> <a class="nav-link" href="#About_Us">About Us</a> </li>
-</ul>
-</nav>
+            <a href="#" class="logo">o pure flave</a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Subscription</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </nav>
        </div>
     </header>
     <main>
 <section class="hero" id="hero">
-<div class="container">
-        <div class="hero-text"></div>
-        <div class="hero-img"><img src="./img/hero.jpg" alt="hero-img"></div>
-       </div>
+    <div class="container">
+        <div class="hero_content">
+            <h1 class="hero_title">Freshly pressed, straight to your door</h1>
+            <p class="hero_text">At Pure Flave, we’re dedicated to goodness in every sip. Delicious, fresh juice, just as nature intended.</p>
+            <button class="hero_btn" type="button">Shop now</button>
+        </div>
+        <div class="hero_img_container">
+            <img src="./Img/hero.jpg" alt="hero" class="hero_img">
+        </div>
+    </div>
 </section>
 <section class="shop" id="shop">
-<div class="container">
-        
-       </div>
+    <div class="container">
+         <h2 class="shop_title">Shop flaves</h2>
+         <p class="shop_text">Cold-pressed, 100% organic, packed with vitamins, nutrients, and natural goodness.</p>
+        <ul class="shop_list">  
+        <li class="shop_item">
+                <img src="./Img/shop-img1.jpg" alt="shop" class="shop_img1">
+                <h5 class="shop_subtitle">Green Punch</h5>
+                <p class="shop_text1">$6.00</p>
+        </li>
+        <li class="shop_item">
+                <img src="./Img/shop-img2.jpg" alt="shop" class="shop_img2">
+                <h5 class="shop_subtitle">Apple Citrus</h5>
+                <p class="shop_text1">$6.00</p>
+        </li>
+        <li class="shop_item">
+                <img src="./Img/shop-img3.jpg" alt="shop" class="shop_img3">
+                <h5 class="shop_subtitle">Orange Zest</h5>
+                <p class="shop_text1">$6.00</p>
+        </li>
+        </ul>
+    </div>
 </section>
 <section class="subscription" id="subscription">
-<div class="container">
-        
-       </div>
+    <div class="container">
+            <h2 class="subscription_title">Subscription</h2>
+            <p class="subscription_text">Subscribe to any of our plans and select how often you want them delivered.</p>
+        <ul class="subscription_list">
+            <li class="subscription_item">
+            <img src="./Img/subscription-img1.jpg" alt="subscription" class="subscription_img1">
+            <h5 class="subscription_subtitle">Total Care</h5>
+            <p class="subscription_text1">$50.00</p>
+        </li>
+        <li class="subscription_item">
+            <img src="./Img/subscription-img2.jpg" alt="subscription" class="subscription_img2">
+            <h5 class="subscription_subtitle">Detox Plan</h5>
+            <p class="subscription_text1">$30.00</p>
+        </li>
+        <li class="subscription_item">
+            <img src="./Img/subscription-img3.jpg" alt="subscription" class="subscription_img3">
+            <h5 class="subscription_subtitle">Full-Day Cleanses</h5>
+            <p class="subscription_text1">$30.00</p>
+        </li>
+        </ul>
+    </div>
 </section>
 <section class="about_us" id="about_us">
-<div class="container">
-        
-       </div>
+    <div class="container">
+        <img src="./img/footer.jpg" alt="about_us">
+    <div class="about_us_content">
+        <span class="about_us_subtitle">About Us</span>
+        <h2 class="about_us_title">Bringing 100% natural juices straight to your door</h2>
+        <p class="about_us_text">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+    </div>
+    </div>
 </section>
     </main>
-
-    <footer class="footer">
-        <div class="container">
-        <p class="footer-text">Terms & Conditions</p>
-        <p class="footer-text">Privacy Policy</p>
-        <p class="footer-text">Shipping Policy</p>
-        <p class="footer-text">Cookie Policy​</p>
-        <p class="footer-text">FAQ</p>
-        <p class="footer-text">Payment Methods</p>
-        <p class="footer-text">Address:</p>
-        <p class="footer-text">500 Terry Francine St.</p>
-        <p class="footer-text">San Francisco, CA 94158</p>
-        <p class="footer-text">Contact:</p>
-        <p class="footer-text">info@mysite.com</p>
-        <p class="footer-text">123-456-7890</p>
-       </div>
-    </footer>
-
-</body>
-</html>
